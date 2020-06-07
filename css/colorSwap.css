@@ -1,0 +1,63 @@
+*{
+    margin:0 auto;
+    padding:0;
+}
+
+.header>.header-content{
+    padding:5px;
+}
+.container-fluid{
+    border-top: 2px solid #000;
+    border-bottom: 2px solid #000;
+    margin-top: 10px;
+    background-color: powderblue;
+}
+#colorViewScreen{
+    display: flex;
+    margin-top: 15px;
+    justify-content: center;
+    align-self: center;
+    border: 10px solid rgb(243, 243, 243);
+    width:80vh;
+    height:50vh;
+    background-color: #18a0d6;
+    
+    border-radius: 10%;
+    
+}
+
+
+.buttons{
+    margin-top: 50px;
+    padding: 12px;
+    margin-left: 20%;
+    margin-right:20%;
+    margin-bottom:5vh;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;  
+
+}
+
+.btn{
+    
+    display:flex;
+    justify-content: space-between;
+    align-self: center;
+    margin-right:10px;
+    height: 100px;
+    width: 100px;
+    border-radius: 50%;
+    border: 1px solid #fff;
+}
+
+
+.buttons>#green{
+    background-color:#73AD21 ;
+}
+.buttons>#red{
+    background-color:#FF0000 ;
+}
+.buttons>#violet{
+    background-color:#9400D3  ;
+}
